@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  gap: 15px;
+}
+.item {
+  color: rgb(79, 75, 75);
+  text-decoration: none;
+  outline-style: none;
+  padding: 8px 0;
+}
+.item:hover,
+.item:focus {
+  box-shadow: 0px -2px 0px rgb(124, 0, 0) inset;
+}
+.decore {
+  color: rgb(124, 0, 0);
+}
+.item:global(.active) {
+  color: rgb(124, 0, 0);
+}

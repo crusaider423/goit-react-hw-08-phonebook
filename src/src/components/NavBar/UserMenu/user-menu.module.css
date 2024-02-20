@@ -1,0 +1,10 @@
+.cover {
+  display: flex;
+  gap: 10px;
+}
+.link {
+  color: rgb(79, 75, 75);
+  text-decoration: none;
+  outline-style: none;
+  padding: 8px 0;
+}
